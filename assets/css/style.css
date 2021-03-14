@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Buda:wght@300&family=Montserrat:wght@300&family=Thasadith:wght@700&display=swap');
+
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.uppercase {
+   text-transform: uppercase; 
+}
+
+
+
+/* -------- IMAGES -------- */
+
+.hero-image {
+    background: url("../images/bg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+.about-bg-image {
+    background: url("../images/about-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    margin-top: -8px;
+}
+
+.my-image  {
+    min-height: auto;
+    width: 100%;
+    background-size: cover;
+    border: 2px solid #ebb0c6;
+}
+
+.portfolio-bg-image {
+    background-image: linear-gradient(#fff, #fcdee8, #fff);
+}
+ 
+.tutorial-bg-image {
+    background: plum;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.contact-bg-image {
+    background: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 745px;
+}
+
+
+
+
+/* -------- HEADINGS -------- */
+
+.name-heading {
+    font-family: 'Akronim' , sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #f2bbdd;
+    text-shadow: 3px 3px 2px #000;
+    padding-top: 30%;
+    padding-left: 15px;
+}
+
+.job-title-heading {
+   font-family: 'Thasadith' , sans-serif;
+   font-size: 1.5rem;
+   letter-spacing: 5px;  
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+   padding-left: 55px;
+}
+
+.about-heading  {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 40px;
+    color:#7d0155;
+    text-shadow: 2px 1px 3px #fff;
+}
+
+.portfolio-heading {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    font-size: 35px;
+    color:#7d0155;
+    text-shadow: 2px 1px 3px #fff;
+}
+
+.contact-heading {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 7%;
+    color: #520238;
+    text-shadow: 1px 0px 1px #fff;
+    
+}
+
+
+
+
+/* -------- NAV BAR -------- */
+
+.navbar {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   text-shadow: 1px 0px 3px #fff;
+}
+
+.navbar .nav-item {
+    padding: 0 5px;
+    margin: 10px;
+    line-height: 5px;
+}
+
+.navbar li a {
+    color: #7d0155 !important;
+}
+
+.navbar li a:hover {
+    transform: scale(1.3);
+}
+
+a.nav-link.active {
+   text-shadow: 0px 0px 1px #6b0026;
+}
+
+
+
+
+
+/* -------- BUTTONS -------- */
+
+.carousel-control-prev, .carousel-control-next {
+   width: 20px;
+   height: 30px;
+   margin-top: 25%;
+   margin-left: 8%;
+   margin-right: 8%;
+   background-color: #520238;
+   opacity: .5;
+   border-radius: 50%;
+}
+
+.book-now-btn {
+    margin-top: 4%;
+    margin-right: 20px;
+    background-color: #6e014b;
+    color: #fff;
+    margin-bottom:0;
+}
+
+.book-now-btn:hover {
+    background-color: #99006a !important ;
+}
+
+
+
+
+
+/* ------- ABOUT SECTION ------- */
+
+.about-me-one  {
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 15px;
+   color: #520238;
+   font-size: 20px; 
+}
+
+.about-me-two  {
+   text-align: center;
+   padding-top: 20px;
+   padding-left: 15px;
+   color: #520238;
+   font-size: 20px;
+}
+
+.current-collabs {
+    color: #520238;
+    text-shadow: 0px 0px 1px #7d0155;
+}
+
+.current-collabs:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.personal-details {
+    text-align: center;
+    padding-top: 7%;
+    color: black;
+}
+
+.personal-info {
+    font-size: 18px;
+    color: #520238;
+}
+
+
+
+/* ------- PORTFOLIO SECTION ------- */ 
+
+.carousel-item {
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding-right: 40%;  
+}
+
+
+
+
+/* ------- TUTORIAL SECTION ------- */
+
+.tutorial-headings {
+   text-align: center;
+   font-family: 'Buda' , sans-serif;
+   font-size: 35px;
+   color: #6e014b;
+   padding-top: 2px;
+   padding-right: 8%;
+   margin-left: 7%;
+   text-shadow: 0px 1px 1px #fff;  
+}
+
+.responsive-iframe {
+    width: 80%;
+    height: 280px; 
+    margin-top: 10%;
+    border: 4px double #f2bbdd;
+}
+
+
+/* ------- FOOTER ------- */
+
+footer {
+   text-align: center;
+   height: auto;
+   background: url("../images/footer4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+.inline-block {
+     display: inline-block;
+ }
+
+
+.social-media li a i {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 40px;
+    text-align: center;
+    color: #6e014b;
+    text-shadow: 1px 0px 2px #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    color: #b5027f;
+    font-size: 45px;
+}
+
+.contact-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    letter-spacing: 6px;
+  
+}
+
+.email {
+color: black;
+font-size: 19px;
+}
+
+.contact-by-email {
+    color: #520238;
+    text-shadow: 0px 1px 1px #ebb0c6;
+}
+
+.contact-by-email:hover {
+    text-decoration: none;
+    color: #520238;
+    text-shadow: 0px 0px 1px #b5027f;
+}
+
+.phone {
+ padding-bottom: 10%;
+ color: black;
+font-size: 19px;
+
+}
+
+.phone-contact {
+    color: #520238;
+}
+
+
+
+
+
+/* ------- MEDIA QUERIES -------*/
+ @media only screen and (max-width: 500px) {
+    .job-title-heading {
+      padding-left: 15px;
+    } 
+}
+
+
+@media only screen and (max-width: 767px) {
+    .contact-heading {
+       margin-top: 20px;
+       margin-left: 5%;
+       letter-spacing: 2px;
+       color: #520238;
+    }
+    .contact-info {
+       margin-right: 20px;
+       padding-top: 10px;
+    }
+    .spacing-style {
+       margin-left: 10%;
+    }  
+   .my-image {
+       margin-top: 20%;
+    }
+    .about-me-one {
+       padding-top: 10px;
+       font-size: 19px;
+    }
+    .about-me-two {
+       padding-top: 40px;
+       padding-bottom: 5%;
+       font-size: 19px;
+    }
+    .about-heading {
+       padding-top: 10%;
+       padding-bottom: 6%;
+       padding-left: 6%;
+    }
+   .hero-image {
+      background-attachment: scroll;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .spacing-style {
+       margin-left: 10%;
+    } 
+    .my-image {
+       margin-top: 15%;
+       margin-bottom: 20%;
+    }
+   .about-bg-image {
+       min-height: 500px;
+    }
+    .about-me-one {
+       padding-top: 7%;
+    }
+    .about-me-two {
+       padding-top: 5%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-bg-image {
+        min-height: 800px;
+    }
+    .my-image {
+        margin-top: 60%;
+    }
+    .about-me-one {
+        padding-top: 20px;
+    }
+    .about-heading {
+        margin-top: -90px;
+    }
+    .responsive-iframe {
+        width: 80%;
+    }
+}
+
+
+ @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .about-bg-image {
+        min-height: 850px;
+    }
+    .my-image {
+        margin-top: 30%;
+    }
+    .about-me-one {
+        padding-top: 10px;
+    }
+}
